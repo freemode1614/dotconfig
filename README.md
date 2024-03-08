@@ -1,2 +1,3 @@
 # .config
-.config for myself
+
+Syncup my local .config in this repo.
