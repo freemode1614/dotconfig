@@ -1,0 +1,88 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "features": {
+    "copilot": false
+  },
+  // Whether to enable vim modes and key bindings
+  "vim_mode": false,
+  "theme": "Ayu Mirage",
+  "ui_font_size": 16,
+  // Font
+  "buffer_font_family": "Mononoki Nerd Font Mono",
+  "buffer_font_size": 18,
+  "buffer_font_features": {
+    "calt": true
+  },
+  "confirm_quit": true,
+  "cursor_blink": true,
+  "copy_on_select": true,
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
+  "show_copilot_suggestions": false,
+  "show_whitespaces": "selection",
+  "collaboration_panel": {
+    // Whether to show the collaboration panel button in the status bar.
+    "button": false,
+    // Where to dock channels panel. Can be 'left' or 'right'.
+    "dock": "left",
+    // Default width of the channels panel.
+    "default_width": 240
+  },
+  "chat_panel": {
+    // Whether to show the collaboration panel button in the status bar.
+    "button": false,
+    // Where to dock channels panel. Can be 'left' or 'right'.
+    "dock": "right",
+    // Default width of the channels panel.
+    "default_width": 240
+  },
+  "assistant": {
+    "version": "1",
+    // Whether to show the assistant panel button in the status bar.
+    "button": false,
+    // Where to dock the assistant. Can be 'left', 'right' or 'bottom'.
+    "dock": "right",
+    // Default width when the assistant is docked to the left or right.
+    "default_width": 640,
+    // Default height when the assistant is docked to the bottom.
+    "default_height": 320,
+    // The default OpenAI model to use when starting new conversations. This
+    // setting can take three values:
+    //
+    // 1. "gpt-3.5-turbo-0613""
+    // 2. "gpt-4-0613""
+    // 3. "gpt-4-1106-preview"
+    "default_open_ai_model": "gpt-4-1106-preview"
+  },
+  "journal": {
+    "path": "~",
+    "hour_format": "hour24"
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+  "languages": {
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TSX": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  }
+}

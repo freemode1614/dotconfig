@@ -1,0 +1,8 @@
+layout {
+    pane size=5 borderless=true focus=true
+    pane borderless=true split_direction="vertical" {
+        pane size="80%"
+        pane size="20%"
+    }
+    pane size=4 borderless=true
+}
