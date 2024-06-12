@@ -12,7 +12,7 @@
   },
   // Whether to enable vim modes and key bindings
   "vim_mode": false,
-  "theme": "Ayu Mirage",
+  "theme": "Sandcastle",
   "ui_font_size": 16,
   // Font
   "buffer_font_family": "Mononoki Nerd Font Mono",
@@ -71,7 +71,7 @@
   },
   "telemetry": {
     "diagnostics": true,
-    "metrics": false
+    "metrics": true
   },
   "languages": {
     "TypeScript": {
@@ -82,6 +82,14 @@
     "TSX": {
       "code_actions_on_format": {
         "source.fixAll.eslint": true
+      }
+    },
+    "Python": {
+      "format_on_save": {
+        "external": {
+          "command": "black",
+          "arguments": ["-"]
+        }
       }
     }
   }
